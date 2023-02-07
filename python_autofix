@@ -1,16 +1,4 @@
-def initialize(i):
-   i=i
+def add(x, y):
+    return x + y
     
-def print_hello_world():
-    # indented with tab
-    print("Hello, World!")
-
-def print_goodbye_world():
-    # indented with 4 spaces
-    print("Goodbye, World!")
-class BaseNumberGenerator:
-   def __init__(self):
-      self.limits = (1,10)
-
-   def get_number(self, min_max):
-      raise NotImplemented
+    add(3,2)
